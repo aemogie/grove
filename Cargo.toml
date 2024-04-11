@@ -1,0 +1,8 @@
+[package]
+name = "grimoire"
+version = "0.1.0"
+edition = "2021"
+authors = ["aemogie."]
+description = "a spellcaster's content-addressable storage"
+
+[dependencies]
