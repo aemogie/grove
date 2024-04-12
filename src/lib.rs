@@ -1,14 +1,15 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+use std::path::PathBuf;
+
+use digest::Digest;
+
+#[derive(Debug)]
+pub struct Store<D: Digest> {
+    path: PathBuf,
+    algo: D,
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+impl<D: Digest> Store<D> {
+    pub fn new(path: PathBuf, algo: D) -> Self {
+        Self { path, algo }
     }
 }
