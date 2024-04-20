@@ -1,4 +1,4 @@
-use grimoire::Store;
+use grove::Store;
 use sha2::{Digest, Sha256};
 use std::env;
 

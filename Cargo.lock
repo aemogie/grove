@@ -57,7 +57,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "grimoire"
+name = "grove"
 version = "0.1.0"
 dependencies = [
  "digest",

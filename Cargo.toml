@@ -1,9 +1,9 @@
 [package]
-name = "grimoire"
+name = "grove"
 version = "0.1.0"
 edition = "2021"
 authors = ["aemogie."]
-description = "a spellcaster's content-addressable storage"
+description = "a magical content-addressable filesystem"
 
 [[example]]
 name = "imnewtorust"
